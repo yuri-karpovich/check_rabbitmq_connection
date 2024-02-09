@@ -11,5 +11,5 @@ docker run -e RABBITMQ_HOST='rabbit-host:5672' -e RABBITMQ_VHOST='/' -e RABBITMQ
 OR
 
 ```bash
-docker run -e RABBITMQ_URL='amqp://rabbit_user:rabbit_pass_url_escaped@rabbit-host:5672/' spoonest/check_rabbitmq_connection:latest
+docker run -e RABBITMQ_URL='amqp://rabbit_user:rabbit_pass_url_escaped@rabbit-host:5672' spoonest/check_rabbitmq_connection:latest
 ```
